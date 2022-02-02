@@ -89,6 +89,7 @@ li{
     text-align: justify;
 }
 
+
 .dos{
     margin-left: 25px;
 }
@@ -99,25 +100,26 @@ li{
    grid-template-rows: 1fr 1fr;
 }
 
+
 .hobbieUno{
     grid-column-start: 1;
     grid-column-end: 4;
     position: sticky;
  }
 
+
  .hobbieDos{
     position: sticky;
-    background-color: blueviolet;
  }
+ 
 
  .hobbieTres{
     position: sticky;
-    background-color: rgb(55, 43, 226);
+    width: 200px;
  }
 
  .hobbieCuatro{
     position: sticky;
-    background-color: rgb(43, 226, 83);
  }
 
 .gridHabilidades{
@@ -220,4 +222,8 @@ li{
     max-width:  1000px;
     padding: 50px;
     margin: 0px;
+}
+
+.animate__animated.animate__backInLeft{
+    --animate-duration: 1s;
 }
