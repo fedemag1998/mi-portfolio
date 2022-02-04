@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--Css-->
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Css-->
      <link rel="stylesheet" href="../style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <!--Font Awesome-->
@@ -34,7 +36,8 @@
             </nav>
         </div>
     </header>
-    <main>
+     <!--
+    <main class="container-fluid">
         <section class="gridTrabajos">
             <div class="gridItem trabajoUno">
                 <h2 id="titulos">PWC</h2><br>
@@ -78,6 +81,51 @@
             </div>
         </section>
     </main>
+     -->
+     <main class="container-fluid">
+        <section class="row">
+            <div class="gridItem trabajoUno">
+                <h2 id="titulos">PWC</h2><br>
+                <div class="col-sm-12 Trabajos">
+                    <img src="../imagenes/consultorapwc.jpg" alt="fotos en empresas anteriores" width= "400"height="300"><br>
+                    <p id="parrafoTrabajos">-Control de compras realizadas: Análisis de los parámetros de calidad y desempeño de los
+                        distintos productos adquiridos por parte del cliente. Comprobando si se justifican dichas
+                        compras a través del manual indicado.<br>
+                        -Control de procesos realizados por el cliente: Análisis de los pasos realizados a lo largo del
+                        proceso por parte del cliente a la hora de adquirir nuevos empleados, realizar cambios en
+                        los mismos o en las transacciones realizadas. Comprobando que los valores impuestos en
+                        las transacciones estén documentados y justificados.<br>
+                        -Control de transacciones en las cuentas contables del cliente, comprobando que los
+                        valores expresados en el saldo deudor y de crédito por cada cuenta este bien justificado y
+                        que coincida con la documentación utilizada por el cliente a la hora de realizar el control.<br>
+                        -Evaluación de riesgos tecnológicos a la hora de realizar las transacciones, y los controles
+                        por parte del cliente<br>
+                        -Asistencia a capacitaciones sobre auditoría interna y externa, brindada por el personal
+                        interno de la empresa, como por el personal del cliente asignado.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31242.34429959504!2d-58.392713987460006!3d-34.60550382148313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7d2d584ea7%3A0x4f4d74c26e86299e!2sCognizant!5e0!3m2!1ses!2sar!4v1640632953327!5m2!1ses!2sar" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-12 trabajoDos">
+                <h2 id="titulos">Cognizant</h2><br>
+                <div class="Trabajos">       
+                    <img src="../imagenes/cognizant.jpg" alt="fotos en empresas anteriores" width= "400"height="200"><br>
+                    <p id="parrafoTrabajos">Texto descriptivo</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.578087497081!2d-58.37331338440383!3d-34.64010088045024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b34f03e23b%3A0x37c809172b933464!2sPwC%20Acceleration%20Center%20Buenos%20Aires%20-%20Barracas!5e0!3m2!1ses!2sar!4v1640633002056!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-12 trabajoTres">
+                <h2 id="titulos">Kiosco</h2>
+                <div class="Trabajos"> 
+                    <img src="../imagenes/Kiosco.jpg" alt="fotos en empresas anteriores"  width="500" height="300"><br>
+                    <p id="parrafoTrabajos">Texto descriptivo</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d818.9693925687704!2d-58.27488547077033!3d-34.80902189877543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32966c9dfd2b5%3A0x6e368bda0ef38f52!2sBartolom%C3%A9%20Mitre%20212%2C%20B1888IQF%20Florencio%20Varela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1640633074694!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br>
+                </div>     
+            </div>
+        </section>
+    </main>
     <footer class="pie">
         <div>  
             <ul class="redes animate__animated animate__backInLeft">
@@ -87,5 +135,7 @@
             </ul>
         </div>
     </footer>
-<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
 </html>
