@@ -19,7 +19,6 @@ body{
 }
 
 .pie{
-    text-decoration:none;
     position: sticky;
     background-color: rgb(69, 186, 190);
     height: 100px;
@@ -33,6 +32,7 @@ body{
 }
 
 .navarriba{
+    text-decoration:none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -80,15 +80,11 @@ li{
 }
 
 .contenidomain{
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     min-height: 72.1vh;
-
 }
 
-.gridItem{
-    text-align: justify;
-}
 .tituloHabilidad{
     margin-left: 50px;
     font-weight: 1000;
@@ -217,9 +213,23 @@ li{
     max-width:  1000px;
     padding: 50px;
     margin: 0px;
+    text-align: inherit;
 }
 
 .animate__animated.animate__backInLeft{
     --animate-duration: 1s;
 }
 
+@media only screen and (max-width: 500px){
+    .fotos{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 2500px){
+    .fotos{
+        width: 400px;
+        height: 400px;
+    }
+}
