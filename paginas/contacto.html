@@ -22,46 +22,62 @@
     <title>Trabajo Desarrollo Web</title>
 </head>
 <body>
-    <header>
-     <div class="cabezado animate__animated animate__bounce"> 
+    <header class="container-fluid">
+        <div class="cabezado"> 
         <h1 class="tituloPrincipal">Federico Maguera</h1>
-            <nav>
-                <ul class="navarriba">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./hobbies.html">Hobbies</a></li>
-                    <li><a href="./habilidades.html">Habilidades</a></li>
-                    <li><a href="./trabajos.html">Trabajos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./habilidades.html">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
             </nav>
         </div>
     </header>
-    <main>
-        <section class="gridContacto">
-            <div class="gridItem contactoUno">
-                <h2 class="titulos">Tabla de precios 2022</h2>
-                <br>
-                <table border="6" cellpadding="4" cellspacing="2">
+    <main class="container-fluid">
+        <section class="row">
+                <h2 class="justify-content-xxl-center titulosSolos">Tabla de precios 2022</h2> 
+                <table class="table">
+                    <thead class="thead-dark">
                     <tr>
-                        <th>Fecha</th>
-                        <th>Diseño web</th>
-                        <th>Maquetado web</th>
-                        <th>Subida al servidor</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Diseño web</th>
+                        <th scope="col">Maquetado web</th>
+                        <th scope="col">Subida al servidor</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
-                        <td>Enero 2022</td>
+                        <th scope="row">Enero 2022</th>
                         <td>5000</td>
                         <td>10000</td>
                         <td>20000</td>
                     </tr>
                     <tr>
-                        <td>Julio 2022</td>
+                        <th scope="row">Julio 2022</th>
                         <td>5000</td>
                         <td>10000</td>
                         <td>20000</td>
                     </tr>
+                    </tbody>
                 </table>
-            </div>    
             <div class="gridItem contactoDos">
                 <form class="datosContacto">
                     <ul>

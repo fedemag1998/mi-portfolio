@@ -22,24 +22,39 @@
     <title>Trabajo Desarrollo Web</title>
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <div class="cabezado"> 
-            <h1 class="tituloPrincipal">Federico Maguera</h1>
-            <nav>
-                <ul class="navarriba">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./hobbies.html">Hobbies</a></li>
-                    <li><a href="./habilidades.html">Habilidades</a></li>
-                    <li><a href="./trabajos.html">Trabajos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+        <h1 class="tituloPrincipal">Federico Maguera</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./habilidades.html">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
             </nav>
         </div>
     </header>
      <main class="container-fluid">
         <section class="row">
                 <h2 class="titulos">PWC</h2><br>
-                    <div class="col-12 col-xxl-2"><img src="../imagenes/consultorapwc.jpg" alt="fotos en empresas anteriores" width= "400"height="300"></div><br>
+                    <div class="col-12 col-xxl-2 my-auto mx-auto"><img src="../imagenes/consultorapwc.jpg" alt="fotos en empresas anteriores" class="img-fluid"></div><br>
                     <div class="col-12 col-xxl-6">
                         <p id="parrafoTrabajos">-Control de compras realizadas: Análisis de los parámetros de calidad y desempeño de los
                                 distintos productos adquiridos por parte del cliente. Comprobando si se justifican dichas
@@ -61,7 +76,7 @@
             </div>
             <h2 class="titulos">Cognizant</h2><br>
             <div class="trabajos">       
-                <img class="col-12 col-xxl-2" src="../imagenes/cognizant.jpg" alt="fotos en empresas anteriores" width= "400"height="200"><br>
+                <img class="col-12 col-xxl-2" src="../imagenes/cognizant.jpg" alt="fotos en empresas anteriores" class="img-fluid rounded mx-auto my-auto"><br>
                 <p class="col-12 col-xxl-6" id="parrafoTrabajos">-Asistencia a los usuarios de Google Mi Negocio.<br>
                         -Ayuda a lo largo de todo el proceso de generacion de la ficha del negocio del usuario en el mapa.
                 </p>
@@ -70,7 +85,7 @@
             </div>
             <h2 class="titulos">Kiosco</h2>
             <div class="trabajos"> 
-                <img class="col-12 col-xxl-2" src="../imagenes/Kiosco.jpg" alt="fotos en empresas anteriores"  width="500" height="300"><br>
+                <img class="col-12 col-xxl-2" src="../imagenes/Kiosco.jpg" alt="fotos en empresas anteriores"  class="img-fluid rounded d-block"><br>
                 <p class="col-12 col-xxl-6" id="parrafoTrabajos">-Atencion al cliente.<br>
                         -Organizacion de inventario y de productos para los clientes.<br>
                         -Gestion de pedidos.

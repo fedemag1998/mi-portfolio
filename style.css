@@ -15,7 +15,7 @@ body{
     max-height: 180px;
     min-width: none;
     font-family: initial;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .pie{
@@ -63,6 +63,14 @@ li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
 }
+
+.titulosSolos{
+    font-weight: 1000;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
 #parrafoIndex{
     font-size: 23px;
     background-color: white;
@@ -82,7 +90,13 @@ li{
 .contenidomain{
     flex-direction: row;
     justify-content: space-between;
-    min-height: 72.1vh;
+    min-height: 77.5vh;
+}
+
+.contenidohobbies{
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 77.5vh;
 }
 
 .tituloHabilidad{
@@ -231,5 +245,20 @@ li{
     .fotos{
         width: 400px;
         height: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    .carusel{
+        height: 400px;
+        margin-bottom: 500px;
+    }
+}
+
+@media only screen and (max-width: 2500px){
+    .carusel{
+        width: 700px;
+        margin-bottom: 500px;
     }
 }

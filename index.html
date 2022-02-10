@@ -16,30 +16,46 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-<!-- Google Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+
     <title>Trabajo Desarrollo Web</title>
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <div class="cabezado"> 
         <h1 class="tituloPrincipal">Federico Maguera</h1>
-            <nav>
-                 <ul class="navarriba">
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="./paginas/hobbies.html">Hobbies</a></li>
-                     <li><a href="./paginas/habilidades.html">Habilidades</a></li>
-                     <li><a href="./paginas/trabajos.html">Trabajos</a></li>
-                     <li><a href="./paginas/contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/habilidades.html">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
             </nav>
         </div>
     </header>
 <main class="container">
     <section class="row contenidomain">
-        <div class="col-12 col-xxl-4"><img src="./imagenes/MagueraFederico.jpg" alt="Foto Federico Maguera" class="fotos"></div>
-        <div class="col-12 col-xxl-8">
+        <div class="col-12 col-xxl-4 mx-auto my-auto"><img src="./imagenes/MagueraFederico.jpg" alt="Foto Federico Maguera" class="fotos"></div>
+        <div class="col-12 col-xxl-8 my-auto">
             <h2 class="tituloIndex">Sobre mi</h2>
             <p id="parrafoIndex">Tengo 23 años y soy Ingeniero Industrial recibido en UADE en el año 2021.
                 Actualmente me encuentro trabajando en PwC en el puesto de Associate 2, en Advisory.
