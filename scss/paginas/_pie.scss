@@ -1,0 +1,11 @@
+.pie{
+    position: sticky;
+    background-color: $colorPrincipal;
+    height: 100px;
+    min-width: none;
+    font-family: initial;
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}

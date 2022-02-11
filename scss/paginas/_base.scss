@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+}
+
+li{
+    display: inline-block;
+    background-color: $colorBotones;
+    padding: 10px;
+}

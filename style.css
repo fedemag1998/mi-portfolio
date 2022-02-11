@@ -31,18 +31,10 @@ body{
     
 }
 
-.navarriba{
-    text-decoration:none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin: 30px;
-}
 li{
     display: inline-block;
     background-color: rgb(196, 202, 207);
     padding: 10px;
-    color: rgb(163, 15, 15);
 }
 .tituloPrincipal{
     font-weight: 700;

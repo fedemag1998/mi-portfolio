@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+body {
+  font-family: 'PT Serif', serif; }
+
+li {
+  display: inline-block;
+  background-color: #7a20e2;
+  padding: 10px; }
+
+.cabezado {
+  position: sticky;
+  background-color: #45babe;
+  min-height: 170px;
+  max-height: 180px;
+  min-width: none;
+  font-family: initial;
+  font-size: 30px; }
+
+.pie {
+  position: sticky;
+  background-color: #45babe;
+  height: 100px;
+  min-width: none;
+  font-family: initial;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end; }
