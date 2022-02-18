@@ -11,8 +11,6 @@ body{
 .cabezado{
     position: sticky;
     background-color: rgb(69, 186, 190);
-    min-height: 170px;
-    max-height: 180px;
     min-width: none;
     font-family: initial;
     font-size: 30px;
@@ -33,14 +31,18 @@ body{
 
 li{
     display: inline-block;
-    background-color: rgb(196, 202, 207);
-    padding: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
 }
 .tituloPrincipal{
+    flex-flow: row wrap;
     font-weight: 700;
     font-family: sans-serif;
     text-align: center;
 }
+
+
 .tituloIndex{
     font-weight: 1000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -82,7 +84,7 @@ li{
 .contenidomain{
     flex-direction: row;
     justify-content: space-between;
-    min-height: 77.5vh;
+    min-height: 82vh;
 }
 
 .contenidohobbies{
@@ -98,7 +100,7 @@ li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 20px;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     max-width: 1000px;
 }
 
@@ -109,6 +111,11 @@ li{
 .imagenHabilidad{
     display: flex;
     justify-content: flex-end;
+    background-color: rgb(255, 255, 255);
+}
+.imagenHabilidad2{
+    display: flex;
+    justify-content: flex-start;
     background-color: rgb(255, 255, 255);
 }
 .habilidadDos{
@@ -227,3 +234,21 @@ li{
         margin-bottom: 500px;
     }
 }
+
+.formulario{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.facebook{
+    color:rgb(38, 0, 255)
+}
+
+.instagram{
+    color:rgb(247, 0, 255)
+}
+
+.linkedin{
+    color:rgb(12, 72, 185)
+}
+

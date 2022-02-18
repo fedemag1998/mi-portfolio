@@ -1,3 +1,26 @@
 $colorPrincipal: #45babe;
 $colorSecundario: white;
 $colorBotones: rgb(122, 32, 226);
+
+$colores: (
+    facebook: rgb(0, 183, 255),
+    instagram: rgb(247, 0, 255),
+    linkedin: rgb(12, 72, 185)
+);
+
+@mixin flexbox ($direction, $justify, $wrap){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    flex-flow: $wrap;
+}
+
+%parrafos{
+    font-size: 23px;
+    background-color: white;
+    height: fit-content;
+    max-width:  1000px;
+    padding: 50px;
+    margin: 0px;
+    text-align: inherit;
+}

@@ -9,3 +9,17 @@
     flex-flow: row wrap;
     justify-content: flex-end;
 }
+
+body{
+    footer{
+        div{
+            ul{
+                li{
+                    a{
+                        background-color: map-get($colores, facebook)
+                    }
+                }
+            }
+        }
+    }
+}

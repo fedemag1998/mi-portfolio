@@ -1,3 +1,12 @@
+body {
+  font-size: 23px;
+  background-color: white;
+  height: fit-content;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0px;
+  text-align: inherit; }
+
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +23,6 @@ li {
 .cabezado {
   position: sticky;
   background-color: #45babe;
-  min-height: 170px;
-  max-height: 180px;
   min-width: none;
   font-family: initial;
   font-size: 30px; }
@@ -30,3 +37,12 @@ li {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end; }
+
+body footer div ul li a {
+  background-color: #00b7ff; }
+
+.trabajos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: row wrap; }

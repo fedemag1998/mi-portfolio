@@ -1,0 +1,9 @@
+Para el sitio agregue hoy 17/2:
+ -Edite el form de la pagina de "Contacto", la rehice con bootstrap para que sea mas responsive
+ -Agregue imagenes a la pagina de habilidades, para que se identifiquen las herramientas y lenguajes que se utilizar
+ -Edite el cabezado para que en todas las paginas figure "Federico Maguera" al costado del menu. para que quede mas prolijo.
+ -Agregue descipcion en los html de todas las paginas
+ -Edite el titulo de pagina en todas las paginas
+ -Edite los botones de redes de el pie de todas las paginas.
+ -Cambie nuevamente la imagen de "Kiosco" ya que las anteriores no me las tomaba, se rompian los enlaces.
+ 
